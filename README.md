@@ -21,6 +21,7 @@ Add the following to the bottom of MiSTer_Data/linux/user-startup.sh
 ```
 
 2) Hardware Setup
+
 Flash the Arduino sketch to the board using Arduino IDE
 
 3) Assembly
