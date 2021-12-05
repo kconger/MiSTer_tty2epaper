@@ -1,0 +1,24 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=Waveshare-XIAO-Hat
+*Date=15:44:31
+*CreatedBy=Fritzing 0.9.5d.2020-02-07.CD-548-0-3d61c58
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;THT;47.5536;-3.82841;90;Bottom;Seeduino XIAO
+2;;;47.9761;-12.0633;0;Bottom;TXT1
+3;;;28.3464;-31.476;0;Bottom;Via1
+4;;THT;47.5536;-19.0684;90;Bottom;
+5;;;29.0149;-1.07897;0;Bottom;TXT1
+6;;;6.9136;-3.82841;0;Bottom;Hole1
+7;;;6.9136;-19.0684;0;Bottom;Hole2
+8;;;29.3811;-23.9606;0;Bottom;TXT1
+9;;THT;28.5036;-27.9584;90;Bottom;Waveshare Hat
