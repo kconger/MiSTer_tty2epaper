@@ -2,6 +2,8 @@
 
 Currently it supports showing the logo of current the running core on a 2.13"(104x212) 3 Color ePaper display. If the current core logo isn't available the MiSTer logo is displayed.
 
+![MMS Install](https://github.com/kconger/MiSTer_tty2epaper/raw/master/photos/MMS-MiSTer_tty2epaper.jpg)
+
 Supported Hardware:
 Waveshare 2.13"(104x212) 3 Color(BWR) ePaper display.
 Adafruit QT Py - SAMD21 Dev Board or Seeduino XIAO M0
