@@ -65,6 +65,9 @@ void loop()
              } else if (command == "AtariLynx"){
                  prevMiSTerLogo = false;
                  drawLogo(AtariLynx_LOGO);
+             } else if (command == "ChannelF"){
+                 prevMiSTerLogo = false;
+                 drawLogo(ChannelF_LOGO);
              } else if (command == "GAMEBOY"){
                  prevMiSTerLogo = false;
                  drawLogo(GAMEBOY_LOGO);
@@ -83,6 +86,9 @@ void loop()
              } else if (command == "NES"){
                  prevMiSTerLogo = false;
                  drawLogo(NES_LOGO);
+             } else if (command == "PlayStation"){
+                 prevMiSTerLogo = false;
+                 drawLogo(PlayStation_LOGO);
              } else if (command == "SNES"){
                  prevMiSTerLogo = false;
                  drawLogo(SNES_LOGO);
