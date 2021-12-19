@@ -19,7 +19,7 @@
 #include "MEGACD_logo.h"      //Sega CD/MegaCD
 #include "NEOGEO_logo.h"      //Neo Geo
 #include "NES_logo.h"         //Nintendo Entertainment System
-#include "PlayStation_logo.h" //Sony Playstation
+#include "PSX_logo.h" //Sony Playstation
 #include "SNES_logo.h"        //Super Nintendo
 #include "SMS_logo.h"         //Sega Mastersystem
 #include "TGFX16_logo.h"      //Turbo Grafx16/PC Engine
