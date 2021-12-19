@@ -52,8 +52,12 @@ void loop()
       if (ch=='\n') {
          Serial.println("Command Received");
          command.trim();
+         Serial.println(command);
          if (previousCommand != command){
-             if (command == "ATARI2600"){
+             if (command == "Astrocade"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Astrocade_LOGO);
+             } else if (command == "ATARI2600"){
                  prevMiSTerLogo = false;
                  drawLogo(ATARI2600_LOGO);
              } else if (command == "ATARI5200"){
@@ -68,6 +72,9 @@ void loop()
              } else if (command == "ChannelF"){
                  prevMiSTerLogo = false;
                  drawLogo(ChannelF_LOGO);
+             } else if (command == "ColecoVision"){
+                 prevMiSTerLogo = false;
+                 drawLogo(ColecoVision_LOGO);
              } else if (command == "GAMEBOY"){
                  prevMiSTerLogo = false;
                  drawLogo(GAMEBOY_LOGO);
@@ -77,6 +84,9 @@ void loop()
              } else if (command == "Genesis"){
                  prevMiSTerLogo = false;
                  drawLogo(Genesis_LOGO);
+             } else if (command == "Intellivision"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Intellivision_LOGO);
              } else if (command == "MEGACD"){
                  prevMiSTerLogo = false;
                  drawLogo(MEGACD_LOGO);
@@ -86,9 +96,12 @@ void loop()
              } else if (command == "NES"){
                  prevMiSTerLogo = false;
                  drawLogo(NES_LOGO);
-             } else if (command == "PlayStation"){
+             } else if (command == "Odyssey2"){
                  prevMiSTerLogo = false;
-                 drawLogo(PlayStation_LOGO);
+                 drawLogo(Odyssey2_LOGO);
+             } else if (command == "PSX"){
+                 prevMiSTerLogo = false;
+                 drawLogo(PSX_LOGO);
              } else if (command == "SNES"){
                  prevMiSTerLogo = false;
                  drawLogo(SNES_LOGO);
@@ -98,6 +111,12 @@ void loop()
              } else if (command == "TGFX16"){
                  prevMiSTerLogo = false;
                  drawLogo(TGFX16_LOGO);
+             } else if (command == "Vectrex"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Vectrex_LOGO);
+             } else if (command == "WonderSwan"){
+                 prevMiSTerLogo = false;
+                 drawLogo(WonderSwan_LOGO);
              } else {
                  if (!prevMiSTerLogo) {
                      prevMiSTerLogo = true;
