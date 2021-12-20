@@ -1,6 +1,6 @@
 /*
  *
- * MiSTer_ttye2epaper
+ * MiSTer_tty2epaper
  * 
  */
 

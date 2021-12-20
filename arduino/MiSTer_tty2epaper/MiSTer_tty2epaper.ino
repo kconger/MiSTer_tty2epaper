@@ -20,8 +20,6 @@
 #define MAX_HEIGHT(EPD) (EPD::HEIGHT <= (MAX_DISPLAY_BUFFER_SIZE / 2) / (EPD::WIDTH / 8) ? EPD::HEIGHT : (MAX_DISPLAY_BUFFER_SIZE / 2) / (EPD::WIDTH / 8))
 GxEPD2_DISPLAY_CLASS<GxEPD2_DRIVER_CLASS, MAX_HEIGHT(GxEPD2_DRIVER_CLASS)> display(GxEPD2_DRIVER_CLASS(/*CS=4*/ 4, /*DC=*/ 2, /*RST=*/ 1, /*BUSY=*/ 0));
 
-//#include "GxEPD2_display_selection_new_style.h"
-
 //Logos
 #include "logos/logo.h"
 #include "logos/104x212/logos-104x212.h"  //104x212 Logos
@@ -36,7 +34,8 @@ void setup()
   Serial.println();
 
   delay(100);
-  display.init(115200);
+  //display.init(115200);
+  display.init(115200, true, 2, false);
 
   drawLogo(MISTER_LOGO);
 
