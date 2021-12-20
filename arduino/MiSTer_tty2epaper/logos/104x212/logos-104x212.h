@@ -8,6 +8,7 @@
  
 #include "MISTER_logo.h"            //MiSTer
 //Consoles
+#include "Arcadia_logo.h"           //Arcadia
 #include "Astrocade_logo.h"         //Astrocade
 #include "ATARI2600_logo.h"         //Atari2600
 #include "ATARI5200_logo.h"         //Atari5200
@@ -22,10 +23,24 @@
 #include "MEGACD_logo.h"            //Sega CD/MegaCD
 #include "NEOGEO_logo.h"            //Neo Geo
 #include "NES_logo.h"               //Nintendo Entertainment System
+#include "NGP_logo.h"               //Neo Geo Pocket
 #include "Odyssey2_logo.h"          //Odyssey2
 #include "PSX_logo.h"               //Sony Playstation
 #include "SNES_logo.h"              //Super Nintendo
 #include "SMS_logo.h"               //Sega Mastersystem
 #include "TGFX16_logo.h"            //Turbo Grafx16/PC Engine
+#include "VC4000_logo.h"            //Vectrex
 #include "Vectrex_logo.h"           //Vectrex
 #include "WonderSwan_logo.h"        //WonderSwan
+//Computers
+#include "AO486_logo.h"             //A0486
+#include "Archie_logo.h"            //Acorn Archimedes
+#include "AtariST_logo.h"           //Atari ST
+#include "BBCMicro_logo.h"          //BBC Micro
+#include "Commodore_logo.h"         //Commodore
+#include "Minimig_logo.h"           //Minimig Amiga
+#include "MSX_logo.h"               //MSX
+#include "TI994a_logo.h"            //Ti-99/4a
+#include "VIC20_logo.h"             //VIC20
+#include "X68000_logo.h"            //Sharp X68000
+#include "ZXSpectrum_logo.h"        //ZXSpectrum

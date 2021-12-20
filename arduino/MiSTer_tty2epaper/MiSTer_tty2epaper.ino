@@ -54,7 +54,16 @@ void loop()
          command.trim();
          Serial.println(command);
          if (previousCommand != command){
-             if (command == "Astrocade"){
+             if (command == "AO486"){
+                 prevMiSTerLogo = false;
+                 drawLogo(AO486_LOGO);
+             } else if (command == "ARCHIE"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Archie_LOGO);
+             } else if (command == "Arcadia"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Arcadia_LOGO);
+             } else if (command == "Astrocade"){
                  prevMiSTerLogo = false;
                  drawLogo(Astrocade_LOGO);
              } else if (command == "ATARI2600"){
@@ -69,16 +78,34 @@ void loop()
              } else if (command == "AtariLynx"){
                  prevMiSTerLogo = false;
                  drawLogo(AtariLynx_LOGO);
+             } else if (command == "AtariST"){
+                 prevMiSTerLogo = false;
+                 drawLogo(AtariST_LOGO);
+             } else if (command == "BBCMicro"){
+                 prevMiSTerLogo = false;
+                 drawLogo(BBCMicro_LOGO);
              } else if (command == "ChannelF"){
                  prevMiSTerLogo = false;
                  drawLogo(ChannelF_LOGO);
-             } else if (command == "ColecoVision"){
+             } else if (command == "Coleco"){
                  prevMiSTerLogo = false;
                  drawLogo(ColecoVision_LOGO);
+             } else if (command == "C16"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Commodore_LOGO);
+             } else if (command == "C64"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Commodore_LOGO);
              } else if (command == "GAMEBOY"){
                  prevMiSTerLogo = false;
                  drawLogo(GAMEBOY_LOGO);
+             } else if (command == "GAMEBOY2P"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GAMEBOY_LOGO);
              } else if (command == "GBA"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GBA_LOGO);
+             } else if (command == "GBA2P"){
                  prevMiSTerLogo = false;
                  drawLogo(GBA_LOGO);
              } else if (command == "Genesis"){
@@ -90,33 +117,57 @@ void loop()
              } else if (command == "MEGACD"){
                  prevMiSTerLogo = false;
                  drawLogo(MEGACD_LOGO);
+             } else if (command == "Minimig"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Minimig_LOGO);
+             } else if (command == "MSX"){
+                 prevMiSTerLogo = false;
+                 drawLogo(MSX_LOGO);
              } else if (command == "NEOGEO"){
                  prevMiSTerLogo = false;
                  drawLogo(NEOGEO_LOGO);
              } else if (command == "NES"){
                  prevMiSTerLogo = false;
                  drawLogo(NES_LOGO);
-             } else if (command == "Odyssey2"){
+             } else if (command == "NGP"){
+                 prevMiSTerLogo = false;
+                 drawLogo(NGP_LOGO);
+             } else if (command == "ODYSSEY2"){
                  prevMiSTerLogo = false;
                  drawLogo(Odyssey2_LOGO);
              } else if (command == "PSX"){
                  prevMiSTerLogo = false;
                  drawLogo(PSX_LOGO);
-             } else if (command == "SNES"){
-                 prevMiSTerLogo = false;
-                 drawLogo(SNES_LOGO);
              } else if (command == "SMS"){
                  prevMiSTerLogo = false;
                  drawLogo(SMS_LOGO);
+             } else if (command == "SNES"){
+                 prevMiSTerLogo = false;
+                 drawLogo(SNES_LOGO);
+             } else if (command == "Spectrum"){
+                 prevMiSTerLogo = false;
+                 drawLogo(ZXSpectrum_LOGO);
              } else if (command == "TGFX16"){
                  prevMiSTerLogo = false;
                  drawLogo(TGFX16_LOGO);
-             } else if (command == "Vectrex"){
+             } else if (command == "TI-99_4A"){
+                 prevMiSTerLogo = false;
+                 drawLogo(TI994a_LOGO);
+             } else if (command == "VC4000"){
+                 prevMiSTerLogo = false;
+                 drawLogo(VC4000_LOGO);
+             } else if (command == "VIC20"){
+                 prevMiSTerLogo = false;
+                 drawLogo(VIC20_LOGO);
+             } else if (command == "VECTREX"){
                  prevMiSTerLogo = false;
                  drawLogo(Vectrex_LOGO);
              } else if (command == "WonderSwan"){
                  prevMiSTerLogo = false;
                  drawLogo(WonderSwan_LOGO);
+             } else if (command == "X68000"){
+                 prevMiSTerLogo = false;
+                 drawLogo(X68000_LOGO);
              } else {
                  if (!prevMiSTerLogo) {
                      prevMiSTerLogo = true;
