@@ -1,5 +1,5 @@
 /**
- * ChannelF Logo
+ * ChannelF Logo (B/W/R)
  */
  
 const unsigned char ChannelF_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */

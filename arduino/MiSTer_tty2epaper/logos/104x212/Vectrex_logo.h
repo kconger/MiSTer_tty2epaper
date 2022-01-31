@@ -1,5 +1,5 @@
 /**
- * Vectrex Logo (Black)
+ * Vectrex Logo (B/W)
  */
  
 const unsigned char Vectrex_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */
@@ -352,4 +352,4 @@ const unsigned char Vectrex_RED[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, *
     0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,
     0XFF,0XFF,0XFF,0XFF,};
 
-logo_bwr Vectrex_LOGO = {Vectrex_BLACK, Vectrex_RED};
+logo_bwr Vectrex_LOGO = {Vectrex_BLACK, BLANK_LAYER};

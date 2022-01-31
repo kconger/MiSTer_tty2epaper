@@ -1,5 +1,5 @@
 /**
- * Odyssey2 Logo (Red)
+ * Odyssey2 Logo (R/W)
  */
  
 const unsigned char Odyssey2_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */
@@ -352,4 +352,4 @@ const unsigned char Odyssey2_RED[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, 
     0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,
     0XFF,0XFF,0XFF,0XFF,};
 
-logo_bwr Odyssey2_LOGO = {Odyssey2_BLACK, Odyssey2_RED};
+logo_bwr Odyssey2_LOGO = {BLANK_LAYER, Odyssey2_RED};

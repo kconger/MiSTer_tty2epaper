@@ -22,7 +22,7 @@ GxEPD2_DISPLAY_CLASS<GxEPD2_DRIVER_CLASS, MAX_HEIGHT(GxEPD2_DRIVER_CLASS)> displ
 
 //Logos
 #include "logos/logo.h"
-#include "logos/104x212/logos-104x212.h"  //104x212 Logos
+#include "logos/104x212/logos-104x212.h"  //104x212 3 Color Logos
 
 String command = "";
 String previousCommand = "";

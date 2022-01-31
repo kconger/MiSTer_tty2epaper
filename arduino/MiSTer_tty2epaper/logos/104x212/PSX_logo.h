@@ -1,5 +1,5 @@
 /**
- * PSX
+ * PSX (B/W/R)
  */
  
 const unsigned char PSX_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */

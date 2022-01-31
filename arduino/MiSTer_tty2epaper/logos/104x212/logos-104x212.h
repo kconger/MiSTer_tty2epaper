@@ -5,7 +5,8 @@
  * 104x212 Logos
  *
  */
- 
+#include "blank_layer-104x212.h"    //Blank Layer
+
 #include "MISTER_logo.h"            //MiSTer
 //Consoles
 #include "Arcadia_logo.h"           //Arcadia

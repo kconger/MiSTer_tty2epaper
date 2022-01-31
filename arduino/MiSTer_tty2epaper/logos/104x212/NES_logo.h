@@ -1,5 +1,5 @@
 /**
- * NES Logo (B/W)
+ * NES Logo (B/W/R)
  */
 
 const unsigned char NES_BLACK[] PROGMEM = { /* 0X00,0X01,0X68,0X00,0XD4,0X00, */

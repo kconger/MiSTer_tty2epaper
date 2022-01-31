@@ -1,5 +1,5 @@
 /**
- * AtariST Logo (Red)
+ * AtariST Logo (R/W)
  */
  
 const unsigned char AtariST_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */
@@ -352,4 +352,4 @@ const unsigned char AtariST_RED[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, *
     0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,
     0XFF,0XFF,0XFF,0XFF,};
 
-logo_bwr AtariST_LOGO = {AtariST_BLACK, AtariST_RED};
+logo_bwr AtariST_LOGO = {BLANK_LAYER, AtariST_RED};

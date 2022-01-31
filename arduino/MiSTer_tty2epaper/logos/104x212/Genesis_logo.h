@@ -1,5 +1,5 @@
 /**
- * Genesis Logo (Black)
+ * Genesis Logo (B/W)
  */
 
 const unsigned char Genesis_BLACK[] PROGMEM = { /* 0X00,0X01,0X68,0X00,0XD4,0X00, */
@@ -352,4 +352,4 @@ const unsigned char Genesis_RED[] PROGMEM = { /* 0X00,0X01,0X68,0X00,0XD4,0X00, 
 0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,
 0XFF,0XFF,0XFF,0XFF,};
 
-logo_bwr Genesis_LOGO = {Genesis_BLACK, Genesis_RED};
+logo_bwr Genesis_LOGO = {Genesis_BLACK, BLANK_LAYER};

@@ -1,5 +1,5 @@
 /**
- * Commodore Logo (B/R)
+ * Commodore Logo (B/W/R)
  */
  
 const unsigned char Commodore_BLACK[] PROGMEM = {/* 0X00,0X01,0X68,0X00,0XD4,0X00, */
