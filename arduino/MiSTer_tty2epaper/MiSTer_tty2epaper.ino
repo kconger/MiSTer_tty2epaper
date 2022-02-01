@@ -65,9 +65,6 @@ void loop()
              } else if (command == "Astrocade"){
                  prevMiSTerLogo = false;
                  drawLogo(Astrocade_LOGO);
-             } else if (command == "ATARI2600"){
-                 prevMiSTerLogo = false;
-                 drawLogo(ATARI2600_LOGO);
              } else if (command == "ATARI5200"){
                  prevMiSTerLogo = false;
                  drawLogo(ATARI5200_LOGO);
@@ -128,9 +125,6 @@ void loop()
              } else if (command == "NES"){
                  prevMiSTerLogo = false;
                  drawLogo(NES_LOGO);
-             } else if (command == "NGP"){
-                 prevMiSTerLogo = false;
-                 drawLogo(NGP_LOGO);
              } else if (command == "ODYSSEY2"){
                  prevMiSTerLogo = false;
                  drawLogo(Odyssey2_LOGO);
