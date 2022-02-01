@@ -53,7 +53,13 @@ void loop()
          command.trim();
          Serial.println(command);
          if (previousCommand != command){
-             if (command == "AO486"){
+             if (command == "AcornElectron"){
+                 prevMiSTerLogo = false;
+                 drawLogo(AcornElectron_LOGO);
+             } else if (command == "Amstrad"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Amstrad_LOGO);
+             } else if (command == "AO486"){
                  prevMiSTerLogo = false;
                  drawLogo(AO486_LOGO);
              } else if (command == "ARCHIE"){
@@ -128,15 +134,24 @@ void loop()
              } else if (command == "ODYSSEY2"){
                  prevMiSTerLogo = false;
                  drawLogo(Odyssey2_LOGO);
+             } else if (command == "PC8801"){
+                 prevMiSTerLogo = false;
+                 drawLogo(PC8801_LOGO);
              } else if (command == "PSX"){
                  prevMiSTerLogo = false;
                  drawLogo(PSX_LOGO);
+             } else if (command == "RX78"){
+                 prevMiSTerLogo = false;
+                 drawLogo(RX78_LOGO);
              } else if (command == "SMS"){
                  prevMiSTerLogo = false;
                  drawLogo(SMS_LOGO);
              } else if (command == "SNES"){
                  prevMiSTerLogo = false;
                  drawLogo(SNES_LOGO);
+             } else if (command == "Sord M5"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Sord_LOGO);
              } else if (command == "Spectrum"){
                  prevMiSTerLogo = false;
                  drawLogo(ZXSpectrum_LOGO);
@@ -161,6 +176,9 @@ void loop()
              } else if (command == "X68000"){
                  prevMiSTerLogo = false;
                  drawLogo(X68000_LOGO);
+             } else if (command == "Zet98"){
+                 prevMiSTerLogo = false;
+                 drawLogo(PC9801_LOGO);
              } else {
                  if (!prevMiSTerLogo) {
                      prevMiSTerLogo = true;
