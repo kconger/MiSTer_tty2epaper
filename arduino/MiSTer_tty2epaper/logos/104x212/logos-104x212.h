@@ -21,6 +21,7 @@
 #include "GBA_logo.h"               //Nintendo Gameboy Advance
 #include "Genesis_logo.h"           //Sega Megadrive/Genesis
 #include "Intellivision_logo.h"     //Intellivision
+#include "Jaguar_logo.h"            //Jaguar
 #include "MEGACD_logo.h"            //Sega CD/MegaCD
 #include "NEOGEO_logo.h"            //Neo Geo
 #include "NES_logo.h"               //Nintendo Entertainment System
