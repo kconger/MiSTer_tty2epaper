@@ -116,6 +116,9 @@ void loop()
              } else if (command == "Intellivision"){
                  prevMiSTerLogo = false;
                  drawLogo(Intellivision_LOGO);
+             } else if (command == "Jaguar"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Jaguar_LOGO);
              } else if (command == "MEGACD"){
                  prevMiSTerLogo = false;
                  drawLogo(MEGACD_LOGO);
@@ -143,6 +146,9 @@ void loop()
              } else if (command == "RX78"){
                  prevMiSTerLogo = false;
                  drawLogo(RX78_LOGO);
+             } else if (command == "Saturn"){
+                 prevMiSTerLogo = false;
+                 drawLogo(Saturn_LOGO);
              } else if (command == "SMS"){
                  prevMiSTerLogo = false;
                  drawLogo(SMS_LOGO);
