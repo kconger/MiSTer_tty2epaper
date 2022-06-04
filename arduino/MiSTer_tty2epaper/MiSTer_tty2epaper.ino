@@ -122,7 +122,7 @@ void loop()
              } else if (command == "Jaguar"){
                  prevMiSTerLogo = false;
                  drawLogo(Jaguar_LOGO);
-             } else if (command == "MEGACD"){
+             } else if (command == "MegaCD"){
                  prevMiSTerLogo = false;
                  drawLogo(MEGACD_LOGO);
              } else if (command == "Minimig"){
