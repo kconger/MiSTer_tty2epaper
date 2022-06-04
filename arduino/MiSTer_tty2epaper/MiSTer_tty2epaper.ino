@@ -98,6 +98,9 @@ void loop()
              } else if (command == "C64"){
                  prevMiSTerLogo = false;
                  drawLogo(Commodore_LOGO);
+             } else if (command == "Game & Watch"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GAW_LOGO);
              } else if (command == "GAMEBOY"){
                  prevMiSTerLogo = false;
                  drawLogo(GAMEBOY_LOGO);
@@ -113,6 +116,9 @@ void loop()
              } else if (command == "Genesis"){
                  prevMiSTerLogo = false;
                  drawLogo(Genesis_LOGO);
+             } else if (command == "S32X"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GEN32X_LOGO);
              } else if (command == "Intellivision"){
                  prevMiSTerLogo = false;
                  drawLogo(Intellivision_LOGO);

@@ -9,6 +9,7 @@
 
 #include "MISTER_logo.h"            //MiSTer
 //Consoles
+#include "GEN32X_logo.h"               //Sega 32X
 #include "Arcadia_logo.h"           //Arcadia
 #include "Astrocade_logo.h"         //Astrocade
 #include "ATARI2600_logo.h"         //Atari2600
@@ -17,6 +18,7 @@
 #include "AtariLynx_logo.h"         //Atari Lynx
 #include "ChannelF_logo.h"          //Fairchaild ChannelF
 #include "ColecoVision_logo.h"      //ColecoVision
+#include "GAW_logo.h"               //Nintendo Game and Watch
 #include "GAMEBOY_logo.h"           //Nintendo Gameboy
 #include "GBA_logo.h"               //Nintendo Gameboy Advance
 #include "Genesis_logo.h"           //Sega Megadrive/Genesis
