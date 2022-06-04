@@ -98,6 +98,9 @@ void loop()
              } else if (command == "C64"){
                  prevMiSTerLogo = false;
                  drawLogo(Commodore_LOGO);
+             } else if (command == "Game & Watch"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GAW_LOGO);
              } else if (command == "GAMEBOY"){
                  prevMiSTerLogo = false;
                  drawLogo(GAMEBOY_LOGO);

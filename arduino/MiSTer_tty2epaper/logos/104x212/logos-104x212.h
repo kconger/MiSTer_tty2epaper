@@ -17,6 +17,7 @@
 #include "AtariLynx_logo.h"         //Atari Lynx
 #include "ChannelF_logo.h"          //Fairchaild ChannelF
 #include "ColecoVision_logo.h"      //ColecoVision
+#include "GAW_logo.h"               //Nintendo Game and Watch
 #include "GAMEBOY_logo.h"           //Nintendo Gameboy
 #include "GBA_logo.h"               //Nintendo Gameboy Advance
 #include "Genesis_logo.h"           //Sega Megadrive/Genesis
