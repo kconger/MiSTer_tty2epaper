@@ -9,6 +9,7 @@
 
 #include "MISTER_logo.h"            //MiSTer
 //Consoles
+#include "GEN32X_logo.h"               //Sega 32X
 #include "Arcadia_logo.h"           //Arcadia
 #include "Astrocade_logo.h"         //Astrocade
 #include "ATARI2600_logo.h"         //Atari2600

@@ -116,6 +116,9 @@ void loop()
              } else if (command == "Genesis"){
                  prevMiSTerLogo = false;
                  drawLogo(Genesis_LOGO);
+             } else if (command == "S32X"){
+                 prevMiSTerLogo = false;
+                 drawLogo(GEN32X_LOGO);
              } else if (command == "Intellivision"){
                  prevMiSTerLogo = false;
                  drawLogo(Intellivision_LOGO);
